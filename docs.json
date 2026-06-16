@@ -1,0 +1,52 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "NILScript Protocol",
+  "description": "The constitution of NILScript — the Network Intent Layer (NIL), the nilscript DSL, and the SEQRD-PC model.",
+  "colors": { "primary": "#16a34a", "light": "#4ade80", "dark": "#16a34a" },
+  "navigation": {
+    "groups": [
+      { "group": "Overview", "pages": ["index"] },
+      {
+        "group": "NIL — the wire contract",
+        "pages": [
+          "nil/0.2.0",
+          "nil/0.1.0",
+          "nil/0.1.0-hosted-profile",
+          "nil/0.1.0-conformance-checklist",
+          "nil/0.2.0-calibration-appendix"
+        ]
+      },
+      {
+        "group": "nilscript DSL",
+        "pages": [
+          "dsl/00-INDEX",
+          "dsl/01-LANGUAGE-OVERVIEW",
+          "dsl/02-GRAMMAR-AND-PRIMITIVES",
+          "dsl/03-VALIDATION-AND-TYPES",
+          "dsl/04-EXECUTION-MODEL",
+          "dsl/05-STANDARD-LIBRARY",
+          "dsl/06-EXAMPLES",
+          "dsl/07-MAPPING-TO-REPO",
+          "dsl/08-ROADMAP",
+          "dsl/09-REFERENCES",
+          "dsl/10-POSITIONING-AND-PUBLISHING",
+          "dsl/11-RUNTIME-EXPLAINED"
+        ]
+      },
+      { "group": "Profile registry", "pages": ["registry/commerce-v1", "registry/services-v1"] },
+      {
+        "group": "Governance",
+        "pages": ["governance/GOVERNANCE", "governance/VERSIONING", "governance/CODE_OF_CONDUCT"]
+      }
+    ]
+  },
+  "navbar": {
+    "primary": { "type": "button", "label": "pip install nilscript", "href": "https://github.com/nilscript-org/nilscript" },
+    "links": [
+      { "label": "Kernel", "href": "https://github.com/nilscript-org/nilscript" },
+      { "label": "Adapters", "href": "https://github.com/nilscript-org/nil-adapter-template" }
+    ]
+  },
+  "footer": { "socials": { "github": "https://github.com/nilscript-org" } }
+}
