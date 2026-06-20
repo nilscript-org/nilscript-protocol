@@ -6,6 +6,8 @@
 
 *The standard. The runnable kernel lives at [nilscript-org/nilscript](https://github.com/nilscript-org/nilscript).*
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20774491.svg)](https://doi.org/10.5281/zenodo.20774491)
+
 </div>
 
 ---
@@ -61,3 +63,19 @@ The verb catalogs per domain: [commerce-v1](registry/commerce-v1.md) · [service
 ## License
 
 Specification text: **CC BY 4.0**. Schemas / vectors / code (in the kernel): **Apache 2.0**.
+
+## Citation
+
+This repository is the specification of the **NIL (Network Intent Layer)** framework, described in a
+published paper archived on Zenodo with a permanent DOI:
+**[10.5281/zenodo.20774491](https://doi.org/10.5281/zenodo.20774491)**.
+
+```bibtex
+@misc{elkhider2026nil,
+  title  = {Unexpressible, Not Filtered: A Structural Framework for Governing AI-Agent Actions --- the Network Intent Layer},
+  author = {Elkhider, ElBasheir A. M.},
+  year   = {2026},
+  doi    = {10.5281/zenodo.20774491},
+  url    = {https://doi.org/10.5281/zenodo.20774491}
+}
+```
