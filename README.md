@@ -1,5 +1,13 @@
 <div align="center">
 
+# NILScript
+
+The governed action layer for AI agents. An agent proposes intent; a deterministic kernel is the only
+thing that commits; an action a backend never declared is unexpressible, not filtered. Composes with
+MCP. `pip install nilscript`.
+
+---
+
 # NILScript Protocol
 
 **The constitution of NILScript — the Network Intent Layer (NIL) wire contract, the nilscript DSL grammar, and the SEQRD-PC model.**

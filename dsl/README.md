@@ -1,6 +1,18 @@
+# NILScript
+
+The governed action layer for AI agents. An agent proposes intent; a deterministic kernel is the only
+thing that commits; an action a backend never declared is unexpressible, not filtered. Composes with
+MCP. `pip install nilscript`.
+
+---
+
 # nilscript DSL
 
 **A declarative, JSON-based, LLM-native orchestration language for commerce.**
+
+> The DSL is the optional upper layer of the Network Intent Layer (NIL). It composes above the NIL
+> wire contract; it never replaces it. Every action node still compiles down to a governed NIL
+> `PROPOSE` -> approve -> `COMMIT`, skeleton-bounded, with earned reversibility.
 
 > *Side documentation — a language draft, not yet a shipped subsystem.* This directory
 > specifies the **nilscript DSL**: the language an AI agent writes, a static validator admits,
